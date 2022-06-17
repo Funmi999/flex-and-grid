@@ -1,0 +1,47 @@
+.container {
+    height: 50vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-areas: 
+    '1,1 2'
+    '1,1,2'
+    '3,3,4'
+    '3,3,5' ;
+         gap: 10px;
+        justify-items: auto; 
+    
+        display: grid;
+       
+         }
+main{
+
+    display: grid;
+    
+}
+  .cell {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem;
+  }
+  .cell-1 {
+    background: deepskyblue;
+    grid-column: 1/ span 3;
+      }
+        .cell-2 {
+    background: orangered;
+    grid-row: 2/ span 2;
+  }
+  .cell-3 {
+    background: royalblue;
+    grid-row: 2/ span 2;
+  }
+  .cell-4 {
+    background: gold;
+    
+  }
+  .cell-5 {
+    background: blueviolet;
+  
+  }
+ 
